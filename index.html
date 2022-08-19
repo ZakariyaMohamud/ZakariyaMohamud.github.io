@@ -5,122 +5,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
+    <title>Zakariya Mohamud</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 
 <body>
-   
-    <header class="flex">
 
-
-        <h1><span>Zakariya Mohamud</span></h1>
-        <nav class="tab">
-
-            <a href="#Home"> Home</a>
-            <a href="#About"> About</a>
-            <a href="#Projects"> Projects</a>
-            <a href="#Contact"> Contact</a>
+    <header>
+        <div class="user">
+            <img src="images/MyBitmoji.jpg" alt="">
+            <h3 class="name">Zakariya Mohamud</h3>
+            <p class="post">Full Stack Software Developer</p>
+        </div>
+        <nav class="navBar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
 
         </nav>
     </header>
-    <div class="BigContainer">
-    <div class="Mycontainer">
-        <figure>
-            <div class="grid-item">
-                <img class="frame" src="/images/IMG_5784.jpg" alt="Me">
-            </div>
-            <div class="grid-item">
-                <figcaption class="Bar">
-                    <p>Full Stack Developer | Java Progammer|Trilingual| Retail Associate|Gym Rat | Poetry Lover</p>
-                </figcaption>
-            </div>
-        </figure>
-    </div>
-    <section id="Home">
-<h1 class="title">Who Am I</h1>
-</section>
-<section id="About">
-    <nav class="about">
-    
-    <p> My name is Zakariya and Im a full-Time Student at We Can {Code} IT. 
-    I was born in Garissa, Kenya. and raised in Columbus, Ohio. I speak three languages, Somali, Kiswahili, and English. I like playing soccer and doing woodwork. I went to  Mifflin High School and graduated in June 2021 with honors. I've worked at Newell Brands and worked with employees from different walks of life. It helped me appreciate diversity and develop cultural sensitivity. Some months ago, my brother introduced me to the world of HTML and CSS, and I instantly fell in love with coding. My journey started after being accepted to We Can Code IT’s bootcamp program, where I developed professionally programmed applications in team and individual settings, and I'm learning more every day.
-        I have working knowledge of Java,JavaScript, html, and CSS. I'm excited to </p>
+    <div id="menu" class="fas fa-bars"></div>
 
-   
-</nav>
-<div class="grid-container2" >
-   
-    
-    <div class="skills">
-        <span class="title"> <b>Skills</b></span>
-        <ul>
-            <li>Java</li>
-            <li>Spring</li>
-            <li>Thymeleaf </li>
-            <li>JavaScript</li>
-            <li>MVC</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TDD</li>
-            <li>Agile</li>
-            <li>Object Oriented Programming (OOP) </li>
-            <li>REST APIs</li>
-            <li>Responsive Design / Mobile </li>
-            <li>Relational Databases </li>
-            <li>Source Control / GitHub</li>
-        </ul>
-    </div>
-    <div class="location">
-        <span class="title">Desired Position</span>
-    <p>Based in Columbus, Ohio 43224 <br>
-        Available to work as soon as possible <br>
-        Able to work remote/in person
-    </p>
-</div>
-
-</div>
+    <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Zakariya Mohamud</span></h1>
+        <p>I was born in Garissa, Kenya. and raised in Columbus, Ohio. I speak three languages, Somali,
+            Kiswahili, and English. I like playing soccer and doing woodwork. I went to Mifflin High School and
+            graduated in June 2021 with honors. I've worked at Newell Brands and worked with employees from
+            different walks of life. It helped me appreciate diversity and develop cultural sensitivity. Some
+            months ago, my brother introduced me to the world of HTML and CSS, and I instantly fell in love with
+            coding. My journey started after being accepted to We Can Code IT’s bootcamp program, where I
+            developed professionally programmed applications in teams and individual settings, and I'm learning
+            more every day. I have working knowledge of Java,JavaScript, html, and CSS.</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
     </section>
 
-    <section id="Projects">
-        <h3 class="title">Projects</h3>
-        <div class="project">
-            <div class="container">
-                <img src="https://play-lh.googleusercontent.com/e31MwunXT1FxuJEm77sDHH_kXa_ndP-ofMRkyKNCd4_h-Sxn-Lmw3P3fRhxX8GMsTVtl=w240-h480-rw"
-                    <!-- alt="Project"  class="image"> 
-                <div class="middle">
-                    <div class="text">
-                        <p>Virtual Pet Shelter</p>
-                        <p>This here is a Java console application that allows users to interact with virtual pets in a
-                            pet
-                            shelter. Users playing the game can feed, water, play and even admit a new pet to the
-                            shelter.
-                            The skills I used for this project was inheritance, abstract classes, interfaces, and POJOs.
-                        </p>
-                       
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me </h1>
+
+        <div class="row">
+            <div class="info">
+                <h3><span> name :</span> Zakariya</h3>
+                <h3><span> age :</span> 20</h3>
+                <h3><span> qualification :</span> Certificate</h3>
+                <h3><span> post:</span> Full-Stack Java Developer</h3>
+                <h3><span> language :</span> English, Somali, Kiswahili</h3>
+                <a href="#"><button class="btn">download CV <i class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>Skills</span>
+                    <h3>
+                        Java
+                        Spring
+                        Thymeleaf
+                        JavaScript
+                        MVC
+                        HTML
+                        CSS
+                        TDD
+                        Agile
+                        Object Oriented Programming (OOP)
+                        REST APIs
+                        Responsive Design / Mobile
+                        Relational Databases
+                        Source Control / GitHub
+                    </h3>
+                </div>
+
+                <!-- <div class="box">
+                    <span>6+</span>
+                    <h3>projects complete</h3>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h1 class="heading">my <span>projects</span></h1>
+
+        <div class="box-container">
+
+            <a href="https://github.com/2022-Summer-Cohort/virtual-pet-ZakariyaMohamud">
+                <div class="box" class="box1">
+                    <img src="/images/RoboticCat.jpg" alt="">
+                    <div class="bottom-left">
+                        <h3>VirtualPet</h3>
+                        <h4>Java, OOPS, GitHUb. </h4>
                     </div>
                 </div>
+            </a>
+
+
+            <a href="https://github.com/ZakariyaMohamud/review-site-seal-team-six">
+                <div class="box" class="box1">
+                    <img src="/images/reviewSite2.png" alt="">
+                    <div class="bottom-left">
+                        <h3>Review Site</h3>
+                        <h4>Java, JavaScript, html,css. </h4>
+                    </div>
+                </div>
+            </a>
+
+
+
+            <a href="https://github.com/2022-Summer-Cohort/final-project-summer-2022-cook-this">
+                <div class="box">
+                    <img src="/images/CookBook3.png" alt="">
+                </div>
+            </a>
+
+
+            <a href="https://github.com/ZakariyaMohamud/album-songs-backstreet-engineers">
+                <div class="box" id="box1">
+                    <img src="/images/SodaSound.png" alt="">
+                </div>
+            </a>
+
+            <a href="https://github.com/2022-Summer-Cohort/donut-maker-ZakariyaMohamud">
+                <div class="box">
+                    <img src="/images/DonurMaker.png" alt="">
+                </div>
+            </a>
+
+            <a href="https://github.com/2022-Summer-Cohort/mastery-ZakariyaMohamud">
+                <div class="box">
+                    <img src="/images/Mastery.png" alt="">
+                </div>
+            </a>
+            
+            <a href="https://github.com/2022-Summer-Cohort/donut-maker-ZakariyaMohamud">
+                <div class="box">
+                    <img src="/images/portfolio.png" alt="">
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> me </h1>
+
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i>Zaklee5000@gmail.com</h3>
+                    <h3> <i class="fas fa-phone"></i>+16148061196</h3>
+                    <h3> <i class="fas fa-map-marker-alt"></i>columbus,Ohio - 43224</h3>
+                </div>
+
+                <form action="">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="text" placeholder="email" class="box">
+                    <input type="text" placeholder="project" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder=" message...">
+                </textarea>
+                    <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i> </button>
+                </form>
             </div>
         </div>
-        </div>
-        </div>
-
-
     </section>
-    <hr>
-</div>
-    <footer>
-        <section id="Contact">
-            <a class="links" href="https://www.linkedin.com/in/zakariya-mohamud/"><i
-                    class="fa fa-linkedin fa-4x"></i></a>
-            <h6 class="title"> Zakariya Mohmaud <br> ©️2022 </h6>
-            <a class="links" href="https://github.com/ZakariyaMohamud"><i class="fa fa-github fa-4x"></i></a>
-        </section>
 
-    </footer>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
