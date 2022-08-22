@@ -84,7 +84,7 @@ header .user  {
   height: 17rem;
   width: 17rem;
   border-radius: 50%;
-  /* object-fit: cover; */
+  object-fit: cover;
   margin-bottom: 1rem;
   border: .7rem solid var(--yellow);
   overflow: hidden;
@@ -100,12 +100,12 @@ header .user img{
   transform:scale(1.2, 1.2) ;
 }
 
-header .user .name {
+header .name {
   font-size: 3.5rem;
   color: aliceblue;
 }
 
-header .user .post {
+header .post {
   font-size: 2rem;
   color: #eee;
 }
@@ -178,6 +178,8 @@ section {
   font-size: 2rem;
   color: #eee;
   padding: 1rem 0;
+  text-transform: none;
+  /* text-decoration: none; */
 }
 
 .btn {
@@ -275,13 +277,33 @@ section {
   flex-wrap: wrap;
   padding: 1rem 0;
 }
-#Contact1{
-  display: flex;
+/* .fa fa-linkedin fa-4x {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  background: #333;
   color: #fff;
-  align-items: center;
-  background: #888;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+} */
+/* .icon{
+  color: #fff;
+  animation: first_color .5s ease-in-out infinite alternate;
 }
 
+@keyframes first_color{
+  0%{
+    text-shadow: 0 0 10px #ff1177,
+    0 0 20px #d6249f, 0 0 30px #285AEB
+  }
+  100%{
+    text-shadow: 0 0 10px #ff1177,
+    0 0 10px #d6249f, 0 0 15px #285AEB 
+  }
+} */
 .projects .box-container .box{
   height: 28rem;
   width: auto;
@@ -371,8 +393,34 @@ section {
 }
 .contact .row .content .info h3 i{
   padding-right: 10rem;
-  color: rgb(189, 43, 226);
+  color: var(--yellow);
 }
+
+
+
+.icons{
+  display: flex;
+  column-gap: 25px;
+}
+ .icon{
+  display:inline-flex;
+  font-size: 10px;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+  padding-top: 10rem;
+  /* outline: 2px solid #fff; */
+ 
+}
+ .icon:hover{
+  transform:scale(1.2, 1.2) ;
+}
+
+
+
 
 @media (max-width:2300px) {
   html {
@@ -394,13 +442,13 @@ section {
   padding: 10rem 30rem;
  }
 }
+
+
 @media (max-width:1600px) {
   html {
     font-size: 55%;
   }
-/* .header{
-  width: 5%;
-  } */
+
   .home{
     padding: 10rem 30rem;
   }
@@ -450,6 +498,7 @@ section {
   html {
     font-size: 50%;
   }
+
 
 }
 

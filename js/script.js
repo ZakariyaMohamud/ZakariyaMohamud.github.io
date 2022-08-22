@@ -11,8 +11,19 @@ $(document).ready(function(){
     })
 
     $('a[href*="#"]').click(function(e){
-e.pre
+    
+        e.preventDefualt();
+
+        $('html, body').animate({
 
 
-    })
+            scrollTop : $($ (this).attr('href')).offset().top,
+        
+        },
+        500,
+        'linear'
+        );
+
+
+    });
 });
