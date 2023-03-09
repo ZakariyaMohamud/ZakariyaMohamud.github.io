@@ -106,18 +106,20 @@ nav ul li a:hover{
 
 
 .user{
-  padding: 11rem 30rem;
+  padding: 1rem 10rem;
   display: flex;
+  flex-direction: row-reverse;
 }
 .column{
-  flex: 33.33%;
-  padding: 50px;
+  flex: 50.33%;
+  padding: 1rem 10rem;
+  font-size: 3rem;
 }
 .column img{
   height: 100%;
   width: 100%;
-  border: .7rem solid var(--yellow);
-  border-radius: 50%;
+  border: .6rem solid var(--yellow);
+  border-radius:900px;
 }
 
  .home .user:hover img{
